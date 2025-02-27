@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  #controls {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  #controls button {
+    margin: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  #simulation-area {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+    overflow: hidden;
+  }
+  
+  /* All draggable items */
+  .draggable {
+    position: absolute;
+    padding: 10px;
+    min-width: 40px;
+    min-height: 40px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #333;
+    border-radius: 50%;
+    cursor: move;
+    user-select: none;
+  }
+  
+  /* Free quarks styling */
+  .quark {
+    background-color: #f8d7da;
+    border-color: #842029;
+  }
+  
+  /* Merged particles styling */
+  .particle {
+    background-color: #d1e7dd;
+    border-color: #0f5132;
+  }
+  
